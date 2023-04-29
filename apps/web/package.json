@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 4000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -18,7 +18,7 @@
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
-    "eslint-config-custom": "*",
+    "eslint-config-custom-next": "*",
     "tsconfig": "*",
     "typescript": "^4.5.3"
   }
