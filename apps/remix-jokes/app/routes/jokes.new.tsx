@@ -1,12 +1,6 @@
 import type { ActionArgs, LoaderArgs } from '@remix-run/node';
 import { json, redirect } from '@remix-run/node';
-import {
-  Form,
-  Link,
-  useActionData,
-  useCatch,
-  useNavigation,
-} from '@remix-run/react';
+import { Form, useActionData, useNavigation } from '@remix-run/react';
 
 import { JokeDisplay } from '~/components/joke';
 import { db } from '~/utils/db.server';
